@@ -16,7 +16,7 @@ public class DbInitializer
     public void Seed()
     {
         modelBuilder.Entity<Users>().HasData(
-            new Users(){ Id = 1, Role = Role.Admin, Username = "dainq", Password = BCrypt.Net.BCrypt.HashPassword("123456")}
+            new Users(){ Id = 1, Role = Role.Admin, Username = "NobleHDĐ", Password = BCrypt.Net.BCrypt.HashPassword("123456")}
         );
     }
 }
